@@ -1,1 +1,1 @@
-http://u.osmfr.org/m/935930/
+https://u.osmfr.org/m/935930/
