@@ -2,6 +2,18 @@
 <html lang="pt">
 <html>
   <head>
+    <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.8/src/glowCookies.min.js"></script>
+    <script>
+        glowCookies.start('en', {
+            style: 1,
+            analytics: 'G-G94K2F0G7S',
+            policyLink: 'privacy.html',
+            hideAfterClick: 'true',
+            acceptBtnBackground: '#4caae1',
+            bannerDescription: 'This website uses cookies to help us analyze web traffic. This happens only if you click on the "Accept cookies" button.</br>'          
+        });
+    </script>
+    
     <meta charset="utf-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -33,55 +45,71 @@
 
   <body>
     <nav class="red darken-3">
-      <div class="nav-wrapper container">
+      <div class="nav-wrapper containr">
         <a href="/" class="brand-logo">Abril em Viseu</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#modalinfo" class="waves-effect waves-light modal-trigger"><i class="material-icons">info</i></a></li>
-          <li><a href="#modalgroup" class="waves-effect waves-light modal-trigger"><i class="material-icons">group</i></a></li>
+          <li><a href="#modalabout" class="waves-effect waves-light modal-trigger"><i class="material-icons">info</i></a></li>
+          <li><a href="#modalhelp" class="waves-effect waves-light modal-trigger"><i class="material-icons">group</i></a></li>
+          <li><a href="#modalauthors" class="waves-effect waves-light modal-trigger"><i class="material-icons">group</i></a></li>          
         </ul>
       </div>
     </nav>
   
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="#modalinfo" class="waves-effect waves-light modal-trigger"><i class="material-icons">info</i></a></li>
-      <li><a href="#modalgroup" class="waves-effect waves-light modal-trigger"><i class="material-icons">group</i></a></li>
+      <li><a href="#modalabout" class="waves-effect waves-light modal-trigger"><i class="material-icons">info</i></a></li>
+      <li><a href="#modalhelp" class="waves-effect waves-light modal-trigger"><i class="material-icons">group</i></a></li>
+      <li><a href="#modalauthors" class="waves-effect waves-light modal-trigger"><i class="material-icons">group</i></a></li>      
     </ul>
 
 
   <!-- Modal Welcome -->
-  <div id="modalwelcome" class="modal">
+  <div id="modalwelcome" class="modal modal-fixed-footer">
+    <div class="close-modal right-align">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>      
+
     <div class="modal-content">
       <div class="row">
-        <div class="col s4" id="welcome-cravo">
-          <img class="responsive-img" src="images/cravo.png">
-        </div>
-        <div class="col offset-s1 s7">
-          <div class="close-modal right-align">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
-          </div>      
-    
-          <h4>Abril em Viseu</h4>
-          <p>A bunch of text</p>    
-          <p>A bunch of text</p>    
-          <p>A bunch of text</p>    
-          <p>A bunch of text</p>    
-
+        <div class="col s4" >
+            <img class="responsive-img" src="images/carnation_928345_c.png">
+        </div>      
+        <div class="col s8">          
+          <h1 id="welcome-title">Abril em Viseu</h1>
+          <h4 class="serif">Mapa da história da resistência à ditadura e da Revolução de Abril no Distrito de Viseu</h4>    
         </div>
       </div>
     </div>
-
+    <div class="modal-footer introcopyright ">
+      <span class="grey-text">2024 | CC-BY-SA</span>
+    </div>
   </div>
 
-
-
-  <!-- Modal Info -->
-  <div id="modalinfo" class="modal">
+  <!-- Modal About -->
+  <div id="modalabout" class="modal">
+    <div class="close-modal right-align">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>     
     <div class="modal-content">
       <div class="col offset-s1 s7">
-        <div class="close-modal right-align">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
-        </div>      
+ 
+        <h4>Abril em Viseu</h4>
+        <h4>Abril em Viseu é um projeto de cartografia da história da resistência à ditadura e da Revolução de Abril no Distrito de Viseu</h4>    
+        <p>O projeto pretende resgatar ao esquecimento e divulgar histórias das pessoas, locais e eventos no </p>           <p>A bunch of text</p>    
+        <p>A bunch of text</p>    
+        <p>A bunch of text</p>    
+
+      </div>
+  </div>
+</div>
+
+  <!-- Modal Help -->
+  <div id="modalhelp" class="modal">
+    <div class="close-modal right-align">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>     
+    <div class="modal-content">
+      <div class="col offset-s1 s7">
   
         <h4>Abril em Viseu</h4>
         <p>A bunch of text</p>    
@@ -93,22 +121,22 @@
   </div>
 </div>
 
-  <!-- Modal Group -->
-  <div id="modalgroup" class="modal">
-    <div class="modal-content">
-      <div class="col offset-s1 s7">
-        <div class="close-modal right-align">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
-        </div>      
+    <!-- Modal Authorsp -->
+    <div id="modalauthors" class="modal">
+      <div class="close-modal right-align">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+      </div>       
+      <div class="modal-content">
+        <div class="col offset-s1 s7">
+    
+          <h4>Abril em Viseu</h4>
+          <p>A bunch of text</p>    
+          <p>A bunch of text</p>    
+          <p>A bunch of text</p>    
+          <p>A bunch of text</p>    
   
-        <h4>Abril em Viseu</h4>
-        <p>A bunch of text</p>    
-        <p>A bunch of text</p>    
-        <p>A bunch of text</p>    
-        <p>A bunch of text</p>    
-
-      </div>
-  </div>
+        </div>
+    </div>
 </div>
 
 
