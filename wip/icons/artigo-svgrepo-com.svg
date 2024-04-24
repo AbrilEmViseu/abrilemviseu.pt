@@ -6,7 +6,7 @@
    id="_x32_"
    viewBox="0 0 512 512"
    xml:space="preserve"
-   sodipodi:docname="docu-svgrepo-com.svg"
+   sodipodi:docname="artigo-svgrepo-com.svg"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -29,7 +29,7 @@
    inkscape:deskcolor="#d1d1d1"
    showgrid="false"
    inkscape:zoom="1.1739077"
-   inkscape:cx="165.26001"
+   inkscape:cx="148.2229"
    inkscape:cy="245.76038"
    inkscape:window-width="1920"
    inkscape:window-height="1016"
@@ -42,49 +42,39 @@
    id="style557">
 	.st0{fill:#000000;}
 </style>
-<rect
-   x="-415.56738"
-   y="330.02362"
-   class="st0"
-   width="326.38474"
-   height="120"
-   id="rect565-6"
-   style="fill:#000000;stroke-width:1"
-   transform="scale(-1,1)" /><path
+<path
    class="st0"
    d="m 0,48 v 416 c 0,26.508 21.492,48 48,48 h 416 c 26.508,0 48,-21.492 48,-48 V 48 C 512,21.492 490.508,0 464,0 H 48 C 21.492,0 0,21.492 0,48 Z m 40,0 h 432 v 416 c 0,4.406 -3.586,8 -8,8 H 48 c -4.414,0 -8,-3.594 -8,-8 z"
    id="path559"
    sodipodi:nodetypes="sssssssssccssssc" /><rect
-   x="264"
-   y="90"
+   x="86.974655"
+   y="89.803207"
    class="st0"
-   width="152"
+   width="328"
    height="32"
-   id="rect561" /><rect
+   id="rect561"
+   style="stroke-width:1" /><rect
    x="88"
    y="250"
    class="st0"
    width="328"
    height="32"
    id="rect563" /><rect
-   x="88"
-   y="90"
+   x="87.611526"
+   y="330.83221"
    class="st0"
-   width="120"
-   height="120"
-   id="rect565" /><polygon
-   class="st0"
-   points="264,304 264,272 416,272 416,304 298.958,304 282.958,304 "
-   id="polygon567"
-   transform="translate(0,-102)" /><polygon
-   class="st0"
-   points="298.958,304 282.958,304 264,304 264,272 416,272 416,304 "
-   id="polygon567-7"
-   transform="matrix(-1,0,0,1,503.56737,138.02361)"
+   width="328"
+   height="32"
+   id="rect563-5-3"
    style="fill:#000000" /><polygon
    class="st0"
-   points="282.958,304 264,304 264,272 416,272 416,304 298.958,304 "
-   id="polygon567-7-7"
-   transform="matrix(-1,0,0,1,504.78204,58.832214)"
-   style="fill:#000000" />
+   points="298.958,304 282.958,304 264,304 264,272 416,272 416,304 "
+   id="polygon567"
+   transform="matrix(2.1578947,0,0,1,-482.70955,-100.32268)"
+   style="stroke-width:0.680746" /><polygon
+   class="st0"
+   points="264,304 264,272 416,272 416,304 298.958,304 282.958,304 "
+   id="polygon567-7"
+   transform="matrix(-2.1578947,0,0,1,985.25158,138.02361)"
+   style="fill:#000000;stroke-width:0.680746" />
 </svg>
